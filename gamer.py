@@ -12,3 +12,4 @@ class Gamer:
     def make_turn(self):
         print('make_turn: This function returns a new position active_player')
 
+Привет Лёха
