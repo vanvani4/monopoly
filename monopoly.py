@@ -35,3 +35,4 @@ while True:
         break
     if key == b'\r':
         continue
+        1
