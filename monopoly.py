@@ -14,7 +14,7 @@ def get_player_for_next_turn():
     global player_list
     active_player = player_list.pop(0)
     player_list.append(active_player)
-    print('get_player_for_next_turn(): This function returns the player who makes a move:', active_player)
+    print('get_player_for_next_turn(): This function returns the player who makes a move:', active_player.name)
     return active_player
 
 def сheck_if_player_loose():
@@ -33,5 +33,5 @@ while True:
     key = getch()
     if key == b'\x1b':
         break
-    if key == b'\r':
+    else:
         continue
