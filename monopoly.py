@@ -5,29 +5,29 @@ player2 = gamer.Gamer('Ivan')
 player_list = [player1, player2]
 
 def is_winner_defined():
-    print('is_winner_defined(): This function checks whether the winner is found')
+    print('1.is_winner_defined(): This function checks whether the winner is found')
     return False
 
 
 def greetings_to_winner():
-    print('greetings _to_winner(): This function send greetings to the game winner!')
+    print('2.greetings _to_winner(): This function send greetings to the game winner!')
 
 
 def get_player_for_next_turn():
     global player_list
-    active_player = player_list.pop(0)
-    player_list.append(active_player)
-    print('get_player_for_next_turn(): This function returns the player who makes a move:\n  ', active_player.name)
-    return active_player
+    _active_player = player_list.pop(0)
+    player_list.append(_active_player)
+    print('3.get_player_for_next_turn(): This function returns the player who makes a move:\n  ', _active_player.name)
+    return _active_player
 
 
 def check_if_player_loose():
-    print('check_if_player_loose(): This function checks if a player loses')
+    print('4.check_if_player_loose(): This function checks if a player loses')
     return False
 
 
 def greetings_to_looser():
-    print('greetings_to_looser(): This function send greetings to a player looser!')
+    print('5.greetings_to_looser(): This function send greetings to a player looser!')
 
 
 def was_esc_pressed():
