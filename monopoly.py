@@ -40,7 +40,7 @@ if __name__ == '__main__':
         if is_winner_defined():
             greetings_to_winner()
         active_player = get_player_for_next_turn()
-        active_player.position = gamer.Gamer.make_turn(active_player)
+        active_player.make_turn()
         if check_if_player_loose():
             greetings_to_looser()
         if was_esc_pressed():
