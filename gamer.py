@@ -16,21 +16,21 @@ class Gamer:
     def make_turn(self):
         print('1G.make_turn(): This function returns a new position active_player')
         if game_master.GameMaster.check_if_player_should_skip_turn(self):
-            other.Other.roll_the_dice(self)
-        if other.Other.check_if_new_round_started(self):
-            other.Other.add_money_for_new_round(self)
-            other.Other.change_position_for_new_round(self)
+            other.roll_the_dice()
+        if other.check_if_new_round_started():
+            other.add_money_for_new_round()
+            other.change_position_for_new_round()
         if game_master.GameMaster.check_pay_taxes(self):
-            other.Other.reduce_money(self)
-        if other.Other.check_field_is_company(self):
-            other.Other.apply_company_rule(self)
-        if other.Other.check_field_is_penalty(self):
-            other.Other.apply_penalty_rule(self)
-        if other.Other.check_field_is_lotterey(self):
-            other.Other.apply_lotterey_rule(self)
-        if other.Other.check_field_is_jail(self):
-            other.Other.apply_jail_rule(self)
-        if other.Other.check_field_is_chance(self):
-            other.Other.apply_chance_rule(self)
-        if other.Other.check_field_is_stock(self):
-            other.Other.apply_stock_rule(self)
+            other.reduce_money()
+        if other.check_field_is_company():
+            other.apply_company_rule()
+        if other.check_field_is_penalty():
+            other.apply_penalty_rule()
+        if other.check_field_is_lotterey():
+            other.apply_lotterey_rule()
+        if other.check_field_is_jail():
+            other.apply_jail_rule()
+        if other.check_field_is_chance():
+            other.apply_chance_rule()
+        if other.check_field_is_stock():
+            other.apply_stock_rule()
