@@ -3,14 +3,56 @@ from pprint import pprint
 
 
 def read_json(value):
-    print('---------------------------', value, '----------------------------------- ')
+    print('-----------------------', value, '------------------------------- ')
     with open(value) as data:
         data = json.load(data)
         pprint(data)
 
-if __name__ == '__main__':
 
-    pprint('-------------------------------map.json---------------------------------')
+def read_json_for1():
+    with open('map.json') as data_map:
+        data_map = json.load(data_map)
+        pprint('---------------------------map.json--------------------------')
+        pprint(data_map)
+    for x in list(data_map.values()):
+        print('-----------------------', x, '------------------------------- ')
+        with open(x) as data:
+            data = json.load(data)
+            pprint(data)
+
+
+def read_json_for2():
+    with open('map.json') as data_map:
+        data_map = json.load(data_map)
+        pprint('---------------------------map.json--------------------------')
+    for index, val in enumerate(list(data_map.values())):
+        print(index, val)
+    for x in list(data_map.values()):
+        print('-----------------------', x, '------------------------------- ')
+        with open(x) as data:
+            data = json.load(data)
+            for index, val in enumerate(data.values()):
+                print(index, val)
+
+
+def read_json_while():
+    with open('map.json') as data_map:
+        data_map = json.load(data_map)
+    pprint('---------------------------map.json------------------------------')
+    pprint(data_map)
+    list_values = list(data_map.values())
+    i = 0
+    while i < 36:
+        print('---------------', list_values[i], '-------------------------- ')
+        with open(list_values[i]) as data:
+            data = json.load(data)
+            pprint(data)
+            i += 1
+
+
+if __name__ == '__main__':
+    print('__________________________________________test without cycles___________________________________________')
+    pprint('---------------------------map.json------------------------------')
     with open('map.json') as data_map:
         data_map = json.load(data_map)
     pprint(data_map)
@@ -51,3 +93,10 @@ if __name__ == '__main__':
     read_json(data_map['33'])
     read_json(data_map['34'])
     read_json(data_map['35'])
+
+    print('__________________________________________test with for cycle___________________________________________')
+    read_json_for1()
+    print('__________________________________________test with for cycle and index_________________________________')
+    read_json_for2()
+    print('__________________________________________test with while cycle_________________________________________')
+    read_json_while()
