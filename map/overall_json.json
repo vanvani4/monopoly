@@ -1,0 +1,314 @@
+{
+    "0": {
+        "name": "Start",
+        "price": 500,
+        "title": "START,  + 500 at passage sector"
+    },
+    "1": {
+        "name": "lottery_1500",
+        "price": 1500,
+        "title": "lottery, + 1500"
+    },
+    "2": {
+        "name": "diesel",
+        "price": 500,
+        "title": "DIESEL denim division, prs. 500, rent",
+        "rent1": 150,
+        "rent2": 300,
+        "rent3": 600
+    },
+    "3": {
+        "name": "boss",
+        "price": 700,
+        "title": "BOSS hugo boss, prs.700, rent",
+        "rent1": 200,
+        "rent2": 350,
+        "rent3": 700
+    },
+    "4": {
+        "name": "wrangler",
+        "price": 900,
+        "title": "Wrangler, prs.900, rent",
+        "rent1": 250,
+        "rent2": 400,
+        "rent3": 800
+    },
+    "5": {
+        "0": "item_happy_birthday.json",
+        "1": "item_lottery_2000.json",
+        "2": "item_penalty_1500.json",
+        "3": "item_penalty_2000.json",
+        "4": "item_penalty_3000.json",
+        "5": "item_lottery_5000.json",
+        "6": "item_index_user_minus_4.json",
+        "7": "item_tax_holidays.json",
+        "8": "item_go_to_stock.json",
+        "9": "item_go_to_tax.json",
+        "10": "item_go_to_start.json",
+        "11": "item_skip_the_turn.json",
+        "12": "item_penalty_200.json",
+        "13": "item_go_to_audi.json",
+        "14": "item_lottery_1500.json",
+        "15": "item_lottery_10000.json",
+        "16": "item_repairs_branch.json",
+        "17": "item_go_to_f_c_b.json",
+        "18": "item_present_10000.json",
+        "19": "item_go_to_start.json",
+        "20": "item_bequest_5000.json",
+        "21": "item_index_user_plus_4.json",
+        "22": "item_skip_the_turn.json"
+    },
+    "6": {
+        "name": "penalty",
+        "price": 500,
+        "title": "Tax agency, 500 penalty with each branch"
+    },
+    "7": {
+        "name": "utel",
+        "price": 1000,
+        "title": "Utel, prs.1000, rent",
+        "rent1": 250,
+        "rent2": 500,
+        "rent3": 1000
+    },
+    "8": {
+        "name": "kyivstar",
+        "price": 1200,
+        "title": "Kyivstar, prs.1200, rent",
+        "rent1": 250,
+        "rent2": 500,
+        "rent3": 1100
+    },
+    "9": {
+        "name": "beeline",
+        "price": 1500,
+        "title": "Beeline, prs.1500, rent",
+        "rent1": 300,
+        "rent2": 600,
+        "rent3": 1200
+    },
+    "10": {
+        "name": "lottery_2000",
+        "price": 2000,
+        "title": "lottery, + 2000"
+    },
+    "11": {
+        "name": "stock",
+        "price_win": 2000,
+        "price_los": 1500,
+        "title": "stock"
+    },
+    "12": {
+        "name": "samsung",
+        "price": 1800,
+        "title": "Samsung, prs.1800, rent",
+        "rent1": 350,
+        "rent2": 700,
+        "rent3": 1400
+    },
+    "13": {
+        "name": "sony_ericsson",
+        "price": 2000,
+        "title": "sony_Ericsson, prs.2000, rent",
+        "rent1": 350,
+        "rent2": 700,
+        "rent3": 1400
+    },
+    "14": {
+        "name": "nokia",
+        "price": 2300,
+        "title": "Nokia Connecting People , prs.2300, rent",
+        "rent1": 400,
+        "rent2": 800,
+        "rent3": 1600
+    },
+    "15": {
+        "name": "audi",
+        "price": 2500,
+        "title": "AUDI , prs.2500, rent",
+        "rent1": 400,
+        "rent2": 800,
+        "rent3": 1600
+    },
+    "16": {
+        "name": "porsche",
+        "price": 2800,
+        "title": "PORSCHE , prs.2800, rent",
+        "rent1": 450,
+        "rent2": 900,
+        "rent3": 1800
+    },
+    "17": {
+        "name": "ferrari",
+        "price": 3100,
+        "title": "FERRARI , prs.3100, rent",
+        "rent1": 450,
+        "rent2": 900,
+        "rent3": 1800
+    },
+    "18": {
+        "name": "tax",
+        "price": 300,
+        "title": "Tax agency"
+    },
+    "19": {
+        "0": "item_happy_birthday.json",
+        "1": "item_lottery_2000.json",
+        "2": "item_penalty_1500.json",
+        "3": "item_penalty_2000.json",
+        "4": "item_penalty_3000.json",
+        "5": "item_lottery_5000.json",
+        "6": "item_index_user_minus_4.json",
+        "7": "item_tax_holidays.json",
+        "8": "item_go_to_stock.json",
+        "9": "item_go_to_tax.json",
+        "10": "item_go_to_start.json",
+        "11": "item_skip_the_turn.json",
+        "12": "item_penalty_200.json",
+        "13": "item_go_to_audi.json",
+        "14": "item_lottery_1500.json",
+        "15": "item_lottery_10000.json",
+        "16": "item_repairs_branch.json",
+        "17": "item_go_to_f_c_b.json",
+        "18": "item_present_10000.json",
+        "19": "item_go_to_start.json",
+        "20": "item_bequest_5000.json",
+        "21": "item_index_user_plus_4.json",
+        "22": "item_skip_the_turn.json"
+    },
+    "20": {
+        "name": "spyrs",
+        "price": 3300,
+        "title": "san antonio SPYRS , prs.3300, rent",
+        "rent1": 500,
+        "rent2": 1000,
+        "rent3": 2000
+    },
+    "21": {
+        "name": "chicago_bulls",
+        "price": 3500,
+        "title": "Chicago Bulls , prs.3500, rent",
+        "rent1": 500,
+        "rent2": 1000,
+        "rent3": 2000
+    },
+    "22": {
+        "name": "lakers",
+        "price": 3700,
+        "title": "Los Angeles Lakers , prs.3700, rent",
+        "rent1": 550,
+        "rent2": 1100,
+        "rent3": 2200
+    },
+    "23": {
+        "name": "penalty",
+        "price": 500,
+        "title": "Tax agency, 500 penalty with each branch"
+    },
+    "24": {
+        "name": "lottery_5000",
+        "price": 5000,
+        "title": "lottery, + 5000"
+    },
+    "25": {
+        "name": "fc_bayern",
+        "price": 4000,
+        "title": "FC BAYERN, MUNCHEN EV, prs.4000, rent",
+        "rent1": 550,
+        "rent2": 1100,
+        "rent3": 2200
+    },
+    "26": {
+        "name": "liverpool",
+        "price": 4200,
+        "title": "LIVERPOOL football club, ..., prs.4200, rent",
+        "rent1": 600,
+        "rent2": 1200,
+        "rent3": 2400
+    },
+    "27": {
+        "name": "f_c_b",
+        "price": 4300,
+        "title": "F_C_B_, prs.4300, rent",
+        "rent1": 650,
+        "rent2": 1300,
+        "rent3": 2600
+    },
+    "28": {
+        "0": "item_happy_birthday.json",
+        "1": "item_lottery_2000.json",
+        "2": "item_penalty_1500.json",
+        "3": "item_penalty_2000.json",
+        "4": "item_penalty_3000.json",
+        "5": "item_lottery_5000.json",
+        "6": "item_index_user_minus_4.json",
+        "7": "item_tax_holidays.json",
+        "8": "item_go_to_stock.json",
+        "9": "item_go_to_tax.json",
+        "10": "item_go_to_start.json",
+        "11": "item_skip_the_turn.json",
+        "12": "item_penalty_200.json",
+        "13": "item_go_to_audi.json",
+        "14": "item_lottery_1500.json",
+        "15": "item_lottery_10000.json",
+        "16": "item_repairs_branch.json",
+        "17": "item_go_to_f_c_b.json",
+        "18": "item_present_10000.json",
+        "19": "item_go_to_start.json",
+        "20": "item_bequest_5000.json",
+        "21": "item_index_user_plus_4.json",
+        "22": "item_skip_the_turn.json"
+    },
+    "29": {
+        "name": "jail",
+        "title": "JAIL"
+    },
+    "30": {
+        "name": "southwest",
+        "price": 4500,
+        "title": "SOUTHWEST, prs.4500, rent",
+        "rent1": 700,
+        "rent2": 1400,
+        "rent3": 2800
+    },
+    "31": {
+        "name": "american_airlines",
+        "price": 4700,
+        "title": "American Airlines, prs.4700, rent",
+        "rent1": 750,
+        "rent2": 1500,
+        "rent3": 3000
+    },
+    "32": {
+        "name": "aero_svit",
+        "price": 4800,
+        "title": "AeroSvit airlines, prs.4800, rent",
+        "rent1": 750,
+        "rent2": 1500,
+        "rent3": 3000
+    },
+    "33": {
+        "name": "tat_neft",
+        "price": 5000,
+        "title": "tatNeft, prs.5000, rent",
+        "rent1": 800,
+        "rent2": 1600,
+        "rent3": 3200
+    },
+    "34": {
+        "name": "rosneft",
+        "price": 5500,
+        "title": "Oil company ROSNEFT, prs.5500, rent",
+        "rent1": 850,
+        "rent2": 1600,
+        "rent3": 3200
+    },
+    "35": {
+        "name": "lukoil",
+        "price": 6000,
+        "title": "Oil company LUKOIL, prs.6000, rent",
+        "rent1": 850,
+        "rent2": 1700,
+        "rent3": 3400
+    }
+}
